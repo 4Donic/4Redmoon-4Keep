@@ -39,21 +39,22 @@
 	/datum/species/tabaxi,\
 	/datum/species/axian,\
 	/datum/species/anthromorph,\
-	/datum/species/demihuman
-
-#define RACES_SHUNNED \
+	/datum/species/demihuman,\
 	/datum/species/elf/dark,\
 	/datum/species/tieberian,\
 	/datum/species/anthromorphsmall,\
 	/datum/species/kobold
 
-#define RACES_VERY_SHUNNED \
+#define RACES_SHUNNED \
 	/datum/species/halforc,\
 	/datum/species/goblinp
+
+#define RACES_VERY_SHUNNED \
 
 #define RACES_GOBLIN \
 	/datum/species/goblinp
 
+#define RACES_SEELIE \
 #define RACES_SEELIE \
 	/datum/species/seelie	//Seelie having its own global define and nothing else will prevent allowing it via RACES_ALL_KINDS
 
